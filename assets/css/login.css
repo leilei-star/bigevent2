@@ -1,0 +1,38 @@
+body,
+html {
+    background: url(/assets/images/login_bg.jpg)no-repeat;
+    background-size: cover;
+}
+
+.big-box {
+    background-color: #fff;
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    height: 60px;
+    /* text-align: center; */
+    background: url(/assets/images/login_title.png)no-repeat center;
+}
+
+#reg-box {
+    display: none;
+    padding: 0 30px;
+}
+
+#login-box {
+    padding: 0 30px;
+}
+
+#go-login {
+    margin-left: 220px;
+}
+
+#go-reg {
+    margin-left: 220px;
+}
